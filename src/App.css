@@ -1,0 +1,156 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #181515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  background-color: #242020;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.connect-wrapper {
+  margin-bottom: 20px;
+  justify-self: center;
+}
+
+.connect-h-wrapper {
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+}
+
+.connect-button {
+  padding: 12px;
+  background-color: #181414;
+  border: none;
+  color: #fff;
+  border-radius: 21px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+  align-content: center;
+}
+
+.connect-button:hover {
+  background-color: #0056b3;
+}
+
+
+.connect-text {
+  font-weight: bold;
+  color: #333;
+  background-color: #f4f4f9;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.form-container {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.input-field {
+  width: 70%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.submit-button {
+  text-align: center;
+  width: 60%;
+  padding: 12px;
+  background-color: #ff6600;
+  border: none;
+  color: #fff;
+  border-radius: 21px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  color: #28a745;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error-message {
+  color: #dc3545;
+  font-weight: bold;
+  text-align: center;
+}
+
+.submitted-message {
+  color: #17a2b8;
+  font-weight: bold;
+  text-align: center;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: rgb(41, 37, 37);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
