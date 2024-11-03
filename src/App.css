@@ -28,16 +28,23 @@ body {
   border-radius: 8px;
 }
 
+.title-text {
+  color: #d6d6d6;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.error-message {
+  color: #dc3545;
+  font-weight: bold;
+  text-align: center;
+}
+
+
 .connect-wrapper {
   margin-bottom: 20px;
   justify-self: center;
-}
-
-.connect-h-wrapper {
-  justify-self: center;
-  display: flex;
-  flex-direction: row;
-  gap: 21px;
 }
 
 .connect-button {
@@ -54,7 +61,7 @@ body {
 }
 
 .connect-button:hover {
-  background-color: #0056b3;
+  background-color: #ff7b00;
 }
 
 

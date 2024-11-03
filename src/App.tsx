@@ -179,13 +179,15 @@ function App() {
     <div className="container">
       <div className="connect-wrapper">
         {authenticated ? (
-          <div className="connect-h-wrapper">
+          <div className="connect-wrapper">
             <div className="connect-button" onClick={authenticate}>{userPrincipal.slice(0, 6)}...{userPrincipal.slice(-4)}</div>
           </div>
         ) : (
           <div className="connect-button" onClick={authenticate}>Connect</div>
         )}
       </div>
+
+      <div className="title-text">NOT x PIZZA PETS AIRDROP</div>
 
       {authenticated && !alreadySubmitted && (
         <div className="form-container">
