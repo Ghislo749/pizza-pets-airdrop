@@ -105,7 +105,7 @@ function App() {
       // Check non-fungible token requirement
       if (data.non_fungible_tokens && data.non_fungible_tokens["SP1C2K603TGWJGKPT2Z3WWHA0ARM66D352385TTWH.not-punk::NOT-Punk"]) {
         const nftCount = data.non_fungible_tokens["SP1C2K603TGWJGKPT2Z3WWHA0ARM66D352385TTWH.not-punk::NOT-Punk"].count;
-        if (nftCount > 1) {
+        if (nftCount >= 1) {
           pass = true;
         }
       }
